@@ -24,5 +24,5 @@ double LibPhysica::third(double force) {
 }
 
 double LibPhysica::gravity(double mass_a, double mass_b, double distance) {
-    return ((LibPhysica::BIG_G * mass_a * mass_b) / LibPhysica::pow(distance, 2));
+    return ((LibPhysica::BIG_G * mass_a * mass_b) / std::pow(distance, 2));
 }
