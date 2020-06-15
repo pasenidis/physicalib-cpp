@@ -1,22 +1,27 @@
 #include "newton.hpp"
 
 #include "constants.hpp"
-#include "math.hpp"
+#include <cmath>
 
+enum class LibPhysica::Newton::SpaceBody {
+    Earth,
+    Mars,
+    Moon
+};
 
-double
-LibPhysica::Newton::femt(double mass, std::string planet) {
-    switch (LibPhysica::Newton::Object) {
-        case LibPhysica::Newton::Object::Earth:
+double LibPhysica::Newton::femt(double mass, LibPhysica::Newton::SpaceBody body) {
+    switch (body) {
+        case LibPhysica::Newton::SpaceBody::Earth:
             return mass * 9.81;
             break;
-        case LibPhysica::Newton::Object::Mars:
+        case LibPhysica::Newton::SpaceBody::Mars:
             return mass * 3.71;
             break;
-        case LibPhysica::Newton::Object::Moon:
+        case LibPhysica::Newton::SpaceBody::Moon:
             return mass * 1.62;
             break;
     }
+    return 0;
 }
 
 double LibPhysica::Newton::third(double force) {

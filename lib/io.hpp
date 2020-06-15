@@ -1,6 +1,6 @@
 #pragma once
+#include <string>
 
 namespace LibPhysica {
-    void print(char **text);
-    void input(char **hint);
+    std::string input(std::string hint);
 }  // namespace LibPhysica

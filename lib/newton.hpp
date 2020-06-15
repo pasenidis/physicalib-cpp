@@ -3,13 +3,9 @@
 
 namespace LibPhysica {
     namespace Newton {
-        enum class Object {
-            Earth,
-            Mars,
-            Moon
-        };
+        enum class SpaceBody;
         double
-        femt(double mass, std::string planet);
+        femt(double mass, LibPhysica::Newton::SpaceBody body);
         double third(double force);
         double gravity(double mass_a, double mass_b, double distance);
     }  // namespace Newton
