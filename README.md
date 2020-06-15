@@ -7,6 +7,14 @@
 - [x] - Pressure (work in progress)
 - [x] - C++ Style Guidelines Enforcement
 
+## Compatibility
+At this moment, physicalib only works with Unix-like systems.
+Windows support will also be implemented at some point.
+
+## Dependencies
+- g++
+- standard c++ library
+
 ## Local Development
 ```
 git clone https://github.com/pasenidis/physicalib-cpp
