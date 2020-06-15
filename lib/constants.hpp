@@ -3,4 +3,5 @@
 
 namespace LibPhysica {
     const double BIG_G = 6.6726 * std::pow(10, -11);
+    const double PI = 22 / 7;
 }
