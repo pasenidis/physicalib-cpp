@@ -1,4 +1,5 @@
-# PhysicaLib
+# PhysicaLib [![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/pasenidis/physicalib-cpp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/pasenidis/physicalib-cpp/context:cpp) [![Total alerts](https://img.shields.io/lgtm/alerts/g/pasenidis/physicalib-cpp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/pasenidis/physicalib-cpp/alerts/)
+
 ### A modern C++ library for physical computations.
 
 ## TODOs
